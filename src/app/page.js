@@ -4,6 +4,7 @@ import Industries from '@/components/Industries'
 import Products from '@/components/Products'
 import Clients from '@/components/Clients'
 import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Products />
       <Clients />
       <Contact />
+      <Footer />
     </>
   )
 }

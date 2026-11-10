@@ -54,7 +54,7 @@ function ClientRow({ clients, reverse }) {
             src={client.logo}
             alt={client.name}
             fill
-            className="object-contain grayscale hover:grayscale-0 transition"
+            className="object-contain"
             sizes="(max-width:768px) 100vw, 150px"
           />
         </div>
